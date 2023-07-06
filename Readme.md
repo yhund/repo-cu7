@@ -6,15 +6,14 @@ In the successful submission scenarios, different inputs, such as long names, co
 
 
 ## To run these tests locally, you need to follow these steps:
+1. Install Node.js and npm: Ensure that you have Node.js and npm (Node Package Manager) installed on your local machine. You can download Node.js from their official website and npm comes bundled with it.
 
-    1. Install Node.js and npm: Ensure that you have Node.js and npm (Node Package Manager) installed on your local machine. You can download Node.js from their official website and npm comes bundled with it.
+2. Clone the repository: Clone the project repository to your local machine using git. Open a terminal, navigate to the directory where you want to clone the repository and run the command: git clone <repository_url>.
 
-    2. Clone the repository: Clone the project repository to your local machine using git. Open a terminal, navigate to the directory where you want to clone the repository and run the command: git clone <repository_url>.
+3. Navigate to the project directory: Use the command cd <your_project_directory> to navigate into the project directory.
 
-    3. Navigate to the project directory: Use the command cd <your_project_directory> to navigate into the project directory.
+4. Install the dependencies: In the project directory, you should see a file called package.json which contains all the dependencies of your project. To install these dependencies, run the command npm install.
 
-    4. Install the dependencies: In the project directory, you should see a file called package.json which contains all the dependencies of your project. To install these dependencies, run the command npm install.
-
-    Run the tests: The tests can be run using Jest, which is often used in conjunction with the React Testing Library. If your project is set up to use Jest (look for it in your package.json), you can use the command `npm test` to run your test suite. This will start Jest and it will automatically find and execute all test files in your project.
+Run the tests: The tests can be run using Jest, which is often used in conjunction with the React Testing Library. If your project is set up to use Jest (look for it in your package.json), you can use the command **npm test** to run your test suite. This will start Jest and it will automatically find and execute all test files in your project.
 
 Ensure your terminal is open and active during the testing process as test results will be printed there. If everything is set up correctly, you should see output indicating whether your tests passed or failed.
